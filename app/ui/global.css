@@ -16,3 +16,23 @@ input[type='number']::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
+
+.hide-on-desktop
+{
+display:none;
+}
+
+
+@media only screen and (max-width:450px)
+{
+  .hide-on-mobile
+  {
+  display:none;
+  }
+
+  .hide-on-desktop
+  {
+   display:inline;
+  }
+}
+
